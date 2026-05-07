@@ -1,6 +1,0 @@
-{
-  "json.schemaDownload.enable": true,
-  "json.schemaDownload.trustedDomains": {
-    "https://registry.scalar.com": true
-  }
-}
