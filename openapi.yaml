@@ -24,10 +24,8 @@ info:
 
     ### 1. 기본 설정
     - Base URL
-    | 환경 | URL |
-    |------|-----|
-    | Production | `https://admin.foodpang.co/admin/api/partner/v1`(배포전) |
-    | TEST | `https://inhouse.foodpang.co/pa/api/partner/v1` |
+      - Production : `https://admin.foodpang.co/admin/api/partner/v1`(배포전)
+      - TEST : `https://inhouse.foodpang.co/pa/api/partner/v1`
     - 모든 요청은 `Content-Type: application/json`을 사용합니다.
     
     ### 2. 인증 방식 (Authentication)
