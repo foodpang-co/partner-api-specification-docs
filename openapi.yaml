@@ -450,13 +450,9 @@ components:
           type: string
           description: 결과 메시지 (성공 시 "ok")
           example: ok
-        content:
-          type: object
-          description: 결과 데이터
       example:
         code: 0
         message: ok
-        content: {}
 
     RestPageResponse:
       type: object
@@ -470,11 +466,6 @@ components:
           type: string
           description: 결과 메시지 (성공 시 "ok")
           example: ok
-        content:
-          type: array
-          description: 결과 데이터 목록
-          items:
-            type: object
         page:
           $ref: '#/components/schemas/PageInfo'
       example:
