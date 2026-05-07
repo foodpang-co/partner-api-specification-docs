@@ -3,14 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <title>Foodpang Partner API</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .top-links {
+      padding: 12px 20px;
+      border-bottom: 1px solid #eee;
+      background: #fafafa;
+    }
+
+    .top-links a {
+      margin-right: 16px;
+      text-decoration: none;
+      color: #7c3aed;
+      font-weight: 600;
+    }
+
+    .top-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
-  <script
-    id="api-reference"
-    data-url="./openapi.yaml">
-  </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+<div class="top-links">
+  <a href="https://github.com/foodpang-co/partner-api-specification-docs/blob/main/home.md">
+    시작하기
+  </a>
+
+  <a href="https://github.com/foodpang-co/partner-api-specification-docs/blob/main/error-codes.md">
+    에러코드
+  </a>
+</div>
+
+<script
+  id="api-reference"
+  data-url="./openapi.yaml"
+  data-theme="purple"
+  data-layout="modern"
+  data-hide-download-button="true"
+  data-hide-models="true">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
+
 </body>
 </html>
